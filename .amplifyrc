@@ -1,0 +1,14 @@
+{
+    "providers": {
+        "awscloudformation": {
+            "AuthRoleName": "fdc-20181006171617-authRole",
+            "UnauthRoleArn": "arn:aws:iam::646459707360:role/fdc-20181006171617-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::646459707360:role/fdc-20181006171617-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "fdc-20181006171617-deployment",
+            "UnauthRoleName": "fdc-20181006171617-unauthRole",
+            "StackName": "fdc-20181006171617",
+            "StackId": "arn:aws:cloudformation:us-east-1:646459707360:stack/fdc-20181006171617/7c1a8060-c948-11e8-ac03-50fae583dcd2"
+        }
+    }
+}
