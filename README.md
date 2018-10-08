@@ -29,14 +29,22 @@ $ npm install
 $ npm install -g @aws-amplify/cli
 ```
 
+Configures the AWS access credentials, AWS Region and sets up a new AWS User Profile
+```
+$ amplify configure
+```
+
+Initializes a new project, sets up deployment resources in the cloud and prepares your project for Amplify.
 ```
 $ amplify init
 ```
 
+Add auth
 ```
 $ amplify add auth
 ```
 
+Provisions cloud resources with the latest local developments.
 ```
 $ amplify push
 ```
