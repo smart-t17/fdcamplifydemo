@@ -5,14 +5,22 @@ http://fdcamplify.s3-website-us-east-1.amazonaws.com
 
 npm install -g @vue/cli
 
-## Installing & configuring the Amplify CLI
+## Clone project and install dependencies 
 
-npm install -g @aws-amplify/cli
+### Getting Started
 
-## Project setup
-```
-npm install
-```
+1. Clone project and install dependencies 
+
+$ git clone https://github.com/smartmaxdev/fdcamplifydemo.git
+$ cd fdcamplifydemo
+$ npm install
+
+2. Intialize a new [AWS Amplify CLI](https://github.com/aws-amplify/amplify-cli) project:
+
+$ npm install -g @aws-amplify/cli
+$ amplify init
+$ amplify add auth
+$ amplify push
 
 ### Compiles and hot-reloads for development
 ```
